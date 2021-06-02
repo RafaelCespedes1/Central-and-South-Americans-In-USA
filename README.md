@@ -1,6 +1,3 @@
-
-
-
 # Central-and-South-Americans-In-USA
 Population count of Central Americans and South Americans origins in the United States. 
 
@@ -8,8 +5,8 @@ I wanted to investigate in detail the population in the United States of America
 
 The countries included in the South American region are the aforementioned Colombia, Venezuela, and Ecuador, who together with Panama, also formed another federation when these countries became independent from Spain. Also included in the South American region are Peru and Bolivia, who were once upon a time also one country. Argentina, Uruguay and Paraguay also formed another federal entity when these nations became independent from Spain. Lastly, Chile is also included in the South American region. I only included countries whose official language is Spanish and whose predominant language is Spanish. I thus excluded other countries situated in the regions such as Belize in Central America and Brazil in South America. These 15 countries also share linguistic characteristics such as the widespread use of the voseo Spanish, which is absent from those Spanish varieties spoken in the Caribbean islands, Mexico, and Spain.
 
-!# https://youtu.be/0ZaGZqnINOI
-!# https://youtu.be/gfEYQ0rb9Kg
+#* https://youtu.be/0ZaGZqnINOI
+#* https://youtu.be/gfEYQ0rb9Kg
 
 I adapted a Jupyter file written in Python by reviewing the documention for the US Census API and pulled the number of people who self-identified as being of origin of each of the 15 countries of interest at the zip code level. I wanted to be able to aggregate the retrieved data at the city, county and state levels. I was able to download a free database from https://simplemaps.com/data/us-zips. I then split the database into 3 pieces. One contained only those zip codes that had 3 digits in their zip codes. I added the leading two zeroes. I did the same for those zip codes who that had 4 digits in their zip codes. I added the leading zero. Finally, I concatenated the previous two files with the one that already had zip codes with five digits. I finally, joined the new zip code database with the census database containing the counts of the different nationalities. Finally, I cleaned up the data by adding city, county, and state information to some zip code which had such information missing. I then added some columns that would give me the total of the Central Americans, South Americans, and a grand total of all 15 nationalities at the zip code level. I also added columns that calculated the percentages of the 3 sums calculated above as percent of the total population in each zip code. I also added a column calculating the poverty rate at the zip code level.
 
