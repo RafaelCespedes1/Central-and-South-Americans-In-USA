@@ -1,4 +1,3 @@
-![Count By State and By Nationality](https://user-images.githubusercontent.com/67611324/120439323-3f723900-c337-11eb-8ecd-376e2a93610c.JPG)
 # Central-and-South-Americans-In-USA
 Population count of Central Americans and South Americans origins in the United States. 
 
@@ -18,3 +17,5 @@ I finally uploaded the comma delimited file created above in pandas to a pgAdmin
 ![Count By Nationality 2](https://user-images.githubusercontent.com/67611324/120438126-d0481500-c335-11eb-8be2-f0dd8b969869.JPG)
 
 ![CountByState](https://user-images.githubusercontent.com/67611324/120438677-87449080-c336-11eb-9998-6d47148fc3f5.jpg)
+
+![Count By State and By Nationality](https://user-images.githubusercontent.com/67611324/120439323-3f723900-c337-11eb-8ecd-376e2a93610c.JPG)
