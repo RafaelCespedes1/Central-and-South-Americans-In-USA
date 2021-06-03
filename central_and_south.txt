@@ -1,0 +1,53 @@
+-- Table: public.central_and_south
+
+-- DROP TABLE public.central_and_south;
+
+CREATE TABLE public.central_and_south
+(
+    zipcode integer,
+    population integer,
+    median_age real,
+    household_income real,
+    per_capita_income real,
+    poverty_count integer,
+    nicaraguans integer,
+    costa_ricans integer,
+    guatemalans integer,
+    hondurans integer,
+    panamanians integer,
+    salvadorans integer,
+    argentineans integer,
+    bolivians integer,
+    chileans integer,
+    colombians integer,
+    ecuadorians integer,
+    paraguayans integer,
+    peruvians integer,
+    uruguayans integer,
+    venezuelans integer,
+    lat real,
+    lng real,
+    city character varying COLLATE pg_catalog."default",
+    state_id character varying COLLATE pg_catalog."default",
+    state_name character varying COLLATE pg_catalog."default",
+    population_zip integer,
+    density real,
+    county_fips integer,
+    county_name character varying COLLATE pg_catalog."default",
+    county_weights character varying COLLATE pg_catalog."default",
+    county_names_all character varying COLLATE pg_catalog."default",
+    county_fips_all character varying COLLATE pg_catalog."default",
+    timezone character varying COLLATE pg_catalog."default",
+    poverty_rate real,
+    central_americans integer,
+    south_americans integer,
+    total integer,
+    percent_central_american real,
+    percent_south_american real,
+    percent_total real
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.central_and_south
+    OWNER to postgres;
