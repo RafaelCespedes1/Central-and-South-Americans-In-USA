@@ -1,6 +1,12 @@
 # Central-and-South-Americans-In-USA
 Population count of Central Americans and South Americans origins in the United States. 
 
+Tools used:
+
+* Python to use a US Census API to retrieve data and Pandas to create a dataframe and a comma separated values output file.
+* SQL code to create a database by importing the comma separated values output file from the step above.
+* Tableau used the spreadsheet created in the first step as the raw data to create charts and tables illustrating the findings.
+  
 I wanted to investigate in detail the population in the United States of America who are of Central American and South American origin. There are a total of 15 countries of origin for these communitites. For Central American-Americans the countries of origin are Guatemala, El Salvador, Honduras, Nicaragua, and Costa Rica, who on September 15, 1821, declared their independence from Spain and formed the United Republics of Central America. Also, I included Panama in the Central America region. Although Panama geographically is in the Central American Isthmus, until the early 1900s, Panama formed part of Colombia, and Panama is linguistically, culturally, historically, etc. more like a South American nation.
 
 The countries included in the South American region are the aforementioned Colombia, Venezuela, and Ecuador, who together with Panama, also formed another federation when these countries became independent from Spain. Also included in the South American region are Peru and Bolivia, who were once upon a time also one country. Argentina, Uruguay and Paraguay also formed another federal entity when these nations became independent from Spain. Lastly, Chile is also included in the South American region. I only included countries whose official language is Spanish and whose predominant language is Spanish. I thus excluded other countries situated in the regions such as Belize in Central America and Brazil in South America. These 15 countries also share linguistic characteristics such as the widespread use of the voseo Spanish, which is absent from those Spanish varieties spoken in the Caribbean islands, Mexico, and Spain.  For further details about the voseo feature that is characteristic of Central American and South American varieties of Spanish please see the YouTube videos below. Each video is in English and less than 10 minutes long. Often voseo is a source of pride of our cultural heritage and national identity for the Central American and South American diasporas living in the United States of America.
